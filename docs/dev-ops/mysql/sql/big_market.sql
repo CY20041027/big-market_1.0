@@ -62,8 +62,8 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `strategy`;
 
-CREATE TABLE `strategy` (
-  `id` bigint(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `id` bigint(11) unsigned NOT NULL AUTO_INCCREATE TABLE `strategy` (
+REMENT COMMENT '自增ID',
   `strategy_id` bigint(8) NOT NULL COMMENT '抽奖策略ID',
   `strategy_desc` varchar(128) NOT NULL COMMENT '抽奖策略描述',
   `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
