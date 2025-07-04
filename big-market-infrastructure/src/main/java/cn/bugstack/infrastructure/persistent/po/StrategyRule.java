@@ -9,7 +9,6 @@ import java.util.Date;
  * @version: 1.0
  */
 public class StrategyRule {
-
     /**
      * 自增ID
      */
@@ -46,4 +45,5 @@ public class StrategyRule {
      * 更新时间
      */
     private Date updateTime;
+
 }

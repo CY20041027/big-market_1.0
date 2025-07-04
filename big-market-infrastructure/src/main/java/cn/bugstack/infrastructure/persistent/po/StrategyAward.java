@@ -1,5 +1,6 @@
 package cn.bugstack.infrastructure.persistent.po;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 /**
@@ -14,47 +15,48 @@ public class StrategyAward {
      */
     private Long id;
     /**
-     * 抽奖策略ID'
+     * 抽奖策略ID
      */
-    private Long strategy_id;
+    private Long strategyId;
     /**
-     * 抽奖奖品ID - 内部流转使用'
+     * 抽奖奖品ID - 内部流转使用
      */
-    private Long award_id;
+    private Integer awardId;
     /**
      * 抽奖奖品标题
      */
-    private String award_title;
+    private String awardTitle;
     /**
      * 抽奖奖品副标题
      */
-    private String award_subtitle;
+    private String awardSubtitle;
     /**
      * 奖品库存总量
      */
-    private Long award_count;
+    private Integer awardCount;
     /**
      * 奖品库存剩余
      */
-    private Long award_count_surplus;
+    private Integer awardCountSurplus;
     /**
      * 奖品中奖概率
      */
-    private Long award_rate;
+    private BigDecimal awardRate;
     /**
      * 规则模型，rule配置的模型同步到此表，便于使用
      */
-    private Long rule_models;
+    private String ruleModels;
     /**
      * 排序
      */
-    private Long sort;
+    private Integer sort;
     /**
      * 创建时间
      */
-    private Date create_time;
+    private Date createTime;
     /**
      * 修改时间
      */
-    private Date update_time;
+    private Date updateTime;
+
 }

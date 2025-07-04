@@ -1,6 +1,7 @@
 package cn.bugstack.infrastructure.persistent.po;
 
 import java.util.Date;
+
 /**
  * @description: TODO
  * @author: ruofengcy
@@ -36,4 +37,5 @@ public class Award {
      * 更新时间
      */
     private Date updateTime;
+
 }
