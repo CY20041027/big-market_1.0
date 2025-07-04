@@ -1,0 +1,8 @@
+25-07-04.14:59:51.136 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_321 on LAPTOP-5QPD56AT with PID 32944 (started by ruofengcy in D:\bigmarket\big-market-231209-xfg-strategy\big-market-app)
+25-07-04.14:59:51.137 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+25-07-04.14:59:53.739 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 3.155 seconds (JVM running for 5.498)
+25-07-04.14:59:54.047 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-04.15:00:01.978 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-04.15:00:02.356 [main            ] INFO  AwardDaoTest           - 测试结果：[{},{},{},{},{},{},{},{},{}]
+25-07-04.15:00:02.368 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-04.15:00:02.379 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
